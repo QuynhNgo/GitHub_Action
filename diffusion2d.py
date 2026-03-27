@@ -45,6 +45,7 @@ class SolveDiffusion2D:
         self.nx = int(w / dx)
         self.ny = int(h / dy)
         self.bug = 0
+        x = 2
         for member in [self.w, self.h, self.dx, self.dy]:
             assert (
                 type(member) == float

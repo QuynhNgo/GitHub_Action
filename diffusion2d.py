@@ -47,6 +47,7 @@ class SolveDiffusion2D:
         self.bug = 0
         x = 2
         y = 3
+        studpid la la 
         for member in [self.w, self.h, self.dx, self.dy]:
             assert (
                 type(member) == float

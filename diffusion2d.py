@@ -47,7 +47,7 @@ class SolveDiffusion2D:
         self.bug = 0
         x = 2
         y = 3
-        studpid la la 
+        zApplication = 3
         for member in [self.w, self.h, self.dx, self.dy]:
             assert (
                 type(member) == float
@@ -74,7 +74,7 @@ class SolveDiffusion2D:
 
         # Initial conditions - circle of radius r centred at (cx,cy) (mm)
         r, cx, cy = 2, 5, 5
-        r2 = r ** 2
+        r2 = r**2
         for i in range(self.nx):
             for j in range(self.ny):
                 p2 = (i * self.dx - cx) ** 2 + (j * self.dy - cy) ** 2

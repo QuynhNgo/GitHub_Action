@@ -14,4 +14,3 @@ jobs:
         run: pip install black
       - name: "Run style check"
         run: black --check .
-  test:
